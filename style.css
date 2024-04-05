@@ -1,0 +1,33 @@
+/*
+Theme Name: Go Child Theme
+Theme URI: https://www.godaddy.com/
+Description: Child theme for the GoDaddy Go WordPress theme
+Author: Your Name
+Author URI: https://www.example.com/
+Template: go
+Version: 1.0.0
+*/
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+
+.main {
+    width: 80%;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .sidebar, .main {
+        width: 100%;
+    }
+}
